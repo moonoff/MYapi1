@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first"
+            android:icon="@drawable/ic_widgets_black_24dp"
+            android:title="首页" />
+        <item
+            android:id="@+id/nav_clothing"
+            android:icon="@drawable/ic_widgets_black_24dp"
+            android:title="服装" />
+        <item
+            android:id="@+id/nav_infant"
+            android:icon="@drawable/ic_widgets_black_24dp"
+            android:title="母婴" />
+        <item
+            android:id="@+id/nav_beauty"
+            android:icon="@drawable/ic_widgets_black_24dp"
+            android:title="美妆" />
+        <item
+            android:id="@+id/nav_stand_home"
+            android:icon="@drawable/ic_widgets_black_24dp"
+            android:title="居家" />
+        <item
+            android:id="@+id/nav_box_toe"
+            android:icon="@drawable/ic_widgets_black_24dp"
+            android:title="鞋包" />
+        <item
+            android:id="@+id/nav_eat"
+            android:icon="@drawable/ic_widgets_black_24dp"
+            android:title="美食" />
+        <item
+            android:id="@+id/nav_write"
+            android:icon="@drawable/ic_widgets_black_24dp"
+            android:title="文体" />
+        <item
+            android:id="@+id/nav_home_elect"
+            android:icon="@drawable/ic_widgets_black_24dp"
+            android:title="家电" />
+        <item
+            android:id="@+id/nav_other"
+            android:icon="@drawable/ic_widgets_black_24dp"
+            android:title="其他" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="分享" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
